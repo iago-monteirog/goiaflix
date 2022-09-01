@@ -5,7 +5,7 @@ const Menu = () => {
     return (
         <nav className="Menu ">
             <a href="/">
-                <img className="Logo" src={Logo} alt="AluraFlix logo" />
+                <img className="Logo" src={Logo} alt="GoiaFlix logo" />
             </a>
             <a className="ButtonLink" href="/">
                 Novo vídeo
