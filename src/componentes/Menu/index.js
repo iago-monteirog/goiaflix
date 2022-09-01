@@ -1,5 +1,6 @@
 import './Menu.css'
 import Logo from '../../assets/img/Logo.png'
+import Button from '../Button'
 
 const Menu = () => {
     return (
@@ -7,9 +8,9 @@ const Menu = () => {
             <a href="/">
                 <img className="Logo" src={Logo} alt="GoiaFlix logo" />
             </a>
-            <a className="ButtonLink" href="/">
+            <Button as="a" className="ButtonLink" href="/">
                 Novo vídeo
-            </a>
+            </Button>
         </nav>
     )
 }
